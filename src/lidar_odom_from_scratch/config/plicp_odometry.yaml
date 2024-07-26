@@ -1,0 +1,12 @@
+odom_frame: "odom"
+base_frame: "base_link"
+use_imu: false
+use_odom: false
+use_vel: false
+
+
+# PLICP parameters
+
+kf_dist_linear: 0.1     # m
+kf_dist_angular: 0.1    # deg
+kf_scan_count: 5       
